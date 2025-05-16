@@ -1,35 +1,96 @@
-# Tomodachi-Sport
+# 🏃‍♂️ Tomodachi Sport
 
-# Overview
+**Tomodachi Sport** is a fun and motivational fitness tracking app. Inspired by Tamagotchis, the idea is to make your own avatar grow as you complete real-world physical activities.
 
-Initially, the app's concept would be called **Tomodachi Sport**. The idea comes from Tamagotchis, the virtual pets created by the Japanese company Bandai in 1996, and the fact that Tomodachi means "friend" in Japanese.
+---
 
-The goal is to create a mini-version of yourself or a fictional character that **develops by doing physical activities** in real life. 
-Once your character is created, you can add friends in the app using a **friend code**. Over time, you can view your character’s
-**progress history** and compare it with your friends or on national and international leaderboards to make exercising more competitive and challenging, with a **reward system** that recognizes users’ achievements.
+## 📱 Purpose
 
-# Action Plan
+Make exercise more **engaging** and **rewarding** through:
+- A **progressive virtual avatar**
+- **Co-op fitness challenges**
+- A **global leaderboard**
+- A motivational **rewards system**
 
-## Specific short term goal
+---
 
-- setup Flutter & wakatime, reorganize the readme and functional.
-- coding with flutter to make little things and maybe connect in bluetooth and keep track of it on the little app.
-- start the figma and the technical.
-- If necessary update the functional.
-- use project and GitHub Issue (-> use it like a reminder) to keep track of the work.
+## ✨ Key Features (v1.0)
 
-## Concrete actions to take starting tomorrow
+- Create and customize your avatar 👤  
+- Add friends via **friend code** or **QR code** 🤝  
+- Track your workout history and character evolution 📈  
+- Compete in friend and global rankings 🌍  
+- Sync with **smartwatches** or **armbands** via Bluetooth 📲  
 
-- setup the repository.
-- research about wakatime and flutter to setup it in my computer.
-- coding 1 hour per day.
-- research about transfer information from a smartwatch to an app.
-- coding to add bluetooth connection.
+---
 
-## How I will measure my progress
+## 📦 Bac+3 Milestone Goals
 
-- Meeting with another student to keep track of our work every Sundays.
+- [x] UI/UX prototypes in Figma  
+- [ ] Functional avatar creation  
+- [ ] Friend system  
+- [ ] Progress tracking  
+- [ ] Bluetooth integration with wearables  
 
-## Possible obstacles and anticipated solutions
+---
 
-- Stay at the school after lessons with someone to work on the moonshot, to avoid procrastination.
+## 🚀 Tech Stack
+
+- **Flutter** as the main programming language  
+- **Firebase** (planned) for authentication, database and storage  
+- Bluetooth integration for wearable tracking devices  
+
+---
+
+## 🎯 Bac+5 Milestone Goals (v1.1)
+
+- Weekly co-op boss battles with friends  
+- Advanced reward system  
+- Anti-cheat system using physical sensors  
+- Global leaderboard  
+- Exploration of custom wearable hardware (watch, ring, etc.)
+
+---
+
+## 🇫🇷 Supported Sports
+
+All **sports recognized by the French government**, as well as gym activities (e.g. Basic Fit, Fitness Park...).
+
+---
+
+## 📥 Installation
+
+📱 **Coming Soon** to:
+
+- [App Store](https://www.apple.com/app-store/) *(iOS)*
+- [Google Play](https://play.google.com/store) *(Android)*
+
+*(Links will be added upon release)*
+
+---
+
+## 🧠 About the Developer
+
+Developed by **Lucas Megnan**, 2nd-year student at **ALGOSUP**  
+📍 Passionate about fitness, technology, video games, and gamification.  
+🔗 [LinkedIn](https://www.linkedin.com/in/lucas-megnan/)  
+🔗 [GitHub](https://github.com/LucasMegnan)
+
+---
+
+## 📸 UI/UX Preview
+
+In progress – first prototypes are being designed on Figma.
+
+---
+
+## 🛠️ Contributing
+
+This is a solo student project. Feel free to open issues or send feedback!
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](./LICENSE).  
+Feel free to use, modify, and share it with proper attribution.
