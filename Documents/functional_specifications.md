@@ -5,50 +5,54 @@
 
 - [Functional Specifications](#functional-specifications)
   - [1. Introduction](#1-introduction)
-    - [1.1 Glossary](#11-glossary)
-    - [1.2 Project Overview](#12-project-overview)
-    - [1.3 Project Definition](#13-project-definition)
-      - [1.3.1 Vision](#131-vision)
-      - [1.3.2 Objectives](#132-objectives)
-      - [1.3.3 Scopes](#133-scopes)
-      - [1.3.4 Target Audience](#134-target-audience)
-      - [1.3.5 Deliverables](#135-deliverables)
-    - [1.4 Project Organization](#14-project-organization)
-      - [1.4.1 Project Representatives](#141-project-representatives)
-      - [1.4.2 Stakeholders](#142-stakeholders)
-    - [1.5 Project Plan](#15-project-plan)
-      - [1.5.1 Milestones](#151-milestones)
-      - [1.5.2 Dependencies](#152-dependencies)
-      - [1.5.3 Assumptions / Contraints](#153-assumptions--contraints)
-      - [1.5.4 Risks / Mitigation](#154-risks--mitigation)
+    - [1.1. Glossary](#11-glossary)
+    - [1.2. Project Overview](#12-project-overview)
+    - [1.3. Project Definition](#13-project-definition)
+      - [1.3.1. Vision](#131-vision)
+      - [1.3.2. Objectives](#132-objectives)
+      - [1.3.3. Scopes](#133-scopes)
+      - [1.3.4. Target Audience](#134-target-audience)
+      - [1.3.5. Deliverables](#135-deliverables)
+    - [1.4. Project Organization](#14-project-organization)
+      - [1.4.1. Project Representatives](#141-project-representatives)
+      - [1.4.2. Stakeholders](#142-stakeholders)
+    - [1.5. Project Plan](#15-project-plan)
+      - [1.5.1. Milestones](#151-milestones)
+      - [1.5.2. Dependencies](#152-dependencies)
+      - [1.5.3. Assumptions / Contraints](#153-assumptions--contraints)
+      - [1.5.4. Risks / Mitigation](#154-risks--mitigation)
   - [2. Personas and Use Cases](#2-personas-and-use-cases)
-    - [2.1 Personas](#21-personas)
-      - [2.1.1 Maxime](#211-maxime)
-      - [2.1.2 Léa](#212-léa)
-      - [2.1.3 Hugo](#213-hugo)
-    - [2.2 Use Cases](#22-use-cases)
+    - [2.1. Personas](#21-personas)
+      - [2.1.1. Maxime](#211-maxime)
+      - [2.1.2. Léa](#212-léa)
+      - [2.1.3. Hugo](#213-hugo)
+    - [2.2. Use Cases](#22-use-cases)
   - [3. Functional Requirements](#3-functional-requirements)
+    - [3.1. Mobile Application Implementation](#31-mobile-application-implementation)
+      - [3.1.1. Feature Set](#311-feature-set)
+    - [3.2.](#32)
+    - [3.X. Workflow](#3x-workflow)
   - [4. Non-functional Requirements](#4-non-functional-requirements)
 
 </details>
 
 ## 1. Introduction
 
-### 1.1 Glossary
+### 1.1. Glossary
 
-### 1.2 Project Overview
+### 1.2. Project Overview
 
 Tomodachi Sport is a mobile application that gamifies physical activity. Inspired by Tamagotchis, users create and evolve a digital avatar that grows based on real-life exercise. 
 Through a blend of social interaction, competition, and personalization, the app aims to make fitness fun, consistent, and community-driven.
 
-### 1.3 Project Definition
+### 1.3. Project Definition
 
-#### 1.3.1 Vision
+#### 1.3.1. Vision
 
 Transform exercising into a fun, engaging, and social experience. 
 Encourage a healthy lifestyle by rewarding real-life activity with in-app progress and competitive features.
 
-#### 1.3.2 Objectives
+#### 1.3.2. Objectives
 
 **Main features for Bac+4 presentation that includes:**
 - **Develop a working MVP** (Minimum Viable Product).
@@ -62,7 +66,7 @@ Encourage a healthy lifestyle by rewarding real-life activity with in-app progre
 - **Anti-cheat system with anomaly detection**: A more robust anti-cheat module will detect abnormal patterns in activity data, such as unrealistically high speeds, missing biometric feedback, or inconsistencies between movement and heart rate. This ensures fair competition and strengthens trust in the rankings.
 - **Global leaderboard**: A competitive ranking system that compares all users. This leaderboard will drive motivation and provide users with a sense of belonging to a global community..
 
-#### 1.3.3 Scopes
+#### 1.3.3. Scopes
 
 This application will be developed using **Flutter**, a cross-platform mobile framework, to ensure compatibility with both Android and iOS devices. The backend will rely on **Firebase**, providing real-time database, authentication, and cloud functions support.
 
@@ -85,14 +89,14 @@ The scope of the app includes:
 
 - Delivery of a feature-complete MVP ready for Bac+4 evaluation, with scalable architecture for future expansion.
 
-#### 1.3.4 Target Audience
+#### 1.3.4. Target Audience
 
 - **Fitness enthusiasts**: people looking for a new way to make exercise more attractive and enjoyable.
 - **Occasional exercisers**: Those looking to motivate themselves to stay active through rewards and social connections.
 - **Gamers**: People drawn to game-like elements, such as character progression and cooperative play, to inspire physical activity.
 - **Youth and young adults**: Users familiar with social applications and motivated by peer competition and collaboration.
 
-#### 1.3.5 Deliverables
+#### 1.3.5. Deliverables
 
 | Deliverable | Purpose |
 | ----------- | ------- |
@@ -105,9 +109,9 @@ The scope of the app includes:
 | User Manual               | The end-user documentation for the software explaining how to use each feature, install the app, and troubleshoot common issues.                |
 | Installation Guide        | Instructions for downloading and installing the app via the App Store (iOS) and Google Play Store (Android), including required permissions.    |
 
-### 1.4 Project Organization
+### 1.4. Project Organization
 
-#### 1.4.1 Project Representatives
+#### 1.4.1. Project Representatives
 
 | Full Name | Role | Role Description | 
 | --------- | ---- | ---------------- | 
@@ -119,16 +123,16 @@ The scope of the app includes:
 | Lucas Megnan | Quality assurance | Tests all the functionalities of a product to find bugs and issues. <br> Document bugs and issues. <br> Write the test plan. <br> Check that issues have been fixed. |    
 | Lucas Megnan | Technical writer  | Responsible for creating and maintaining the project's documentation.                                                                                                |
 
-#### 1.4.2 Stakeholders
+#### 1.4.2. Stakeholders
 
 | Role | Representative | Expectations |
 | ---- | -------------- | ------------ |
 | Client          | Franck JEANNIN | Finished project meeting requirements.                                  |
 | School director | Franck JEANNIN | Clear documentation and management based on the skills learnt in class. |
 
-### 1.5 Project Plan
+### 1.5. Project Plan
 
-#### 1.5.1 Milestones
+#### 1.5.1. Milestones
 
 | Milestone |
 | --------- |
@@ -138,7 +142,7 @@ The scope of the app includes:
 | **Sprint 4:**<br>- Full integration with Bluetooth fitness devices. <br>- Implementation of avatar progression logic and user dashboard. <br>- Testing of reward and leaderboard systems- First draft of user manual. |
 | **Sprint 5:**<br>- Testing and bug fixing of all core systems. <br>- Final adjustments to UI/UX- Completion of documentation (user manual, test plan). <br>- Final presentation preparation and app deployment.       |
 
-#### 1.5.2 Dependencies
+#### 1.5.2. Dependencies
 
 **Flutter SDK**: Cross-platform mobile development framework used to build the application.
 **Firebase**: Backend-as-a-service providing authentication, real-time database, and hosting.
@@ -146,7 +150,7 @@ The scope of the app includes:
 **Health Connect (Android) and HealthKit (iOS)**: APIs used for retrieving health and activity data.
 **Third-party Bluetooth fitness devices**: Must support standard GATT profiles or custom services compatible with flutter_blue_plus.
 
-#### 1.5.3 Assumptions / Contraints
+#### 1.5.3. Assumptions / Contraints
 
 **Assumptions**:
 
@@ -165,7 +169,7 @@ The scope of the app includes:
 - The MVP must function fully without requiring a Bluetooth device, relying instead on manual data input if necessary.
 - Health Connect (Android) and HealthKit (iOS) are the only health data APIs to be supported in the MVP.
 
-#### 1.5.4 Risks / Mitigation
+#### 1.5.4. Risks / Mitigation
 
 | Risk | Mitigation Strategy |
 | ---- | ------------------- |
@@ -178,21 +182,21 @@ The scope of the app includes:
 
 ## 2. Personas and Use Cases
 
-### 2.1 Personas
+### 2.1. Personas
 
-#### 2.1.1 Maxime
+#### 2.1.1. Maxime
 
 ![Maxime](./Images/maxime_persona.png)
 
-#### 2.1.2 Léa
+#### 2.1.2. Léa
 
 ![Léa](./Images/lea_persona.png)
 
-#### 2.1.3 Hugo
+#### 2.1.3. Hugo
 
 ![Hugo](./Images/hugo_persona.png)
 
-### 2.2 Use Cases
+### 2.2. Use Cases
 
 | Use Case | Description |
 | -------- | ----------- |
@@ -210,5 +214,38 @@ The scope of the app includes:
 | Customize Notifications      | The user manages reminders and motivational prompts to stay active or join weekly events.                                                     |
 
 ## 3. Functional Requirements
+
+### 3.1. Mobile Application Implementation
+
+**Overview**
+
+Tomodachi Sport is a cross-platform Flutter mobile application that combines real physical activity with the development of a customizable avatar. 
+Users must manually start and finish each workout in the app, after selecting the type of sport and estimated duration. 
+The application remains inactive during the activity. 
+Once the session is completed, the application presents an animated kinematics display showing the avatar's progress. 
+The user can then optionally connect a fitness device to synchronize actual performance data. 
+A reliability score system evaluates the reliability of the session, directly influencing the level of experience and rewards awarded.
+
+#### 3.1.1. Feature Set
+
+| Feature | Description |
+| ------- | ----------- |
+| User Registration/Login   | Secure sign-in using email/password or third-party providers (Google, Apple).                                                             |
+| Avatar Creation           | Users customize a virtual avatar that evolves based on activity points earned during sessions.                                            |
+| Manual Session Launch     | The user must manually start a workout session by selecting a sport and estimated duration.                                               |
+| Session Idle Mode         | The app enters an idle (non-tracking) state during the session.                                                                           |
+| Session Completion        | The user manually ends the session. This triggers the calculation and visualization of earned points and progress.                        |
+| Cinematic Reward Display  | After completing a session, a short animated sequence shows avatar evolution, XP gained, and unlocked rewards.                            |
+| Optional Bluetooth Sync   | Users can optionally connect a fitness device after a session to retrieve real activity data (e.g. calories, heart rate, duration).       |
+| Reliability Score System  | A score from 0 to 100 evaluates the trustworthiness of the session data. It influences how much XP and rewards the user receives.         |
+| Progression & XP System   | Experience and level-ups are earned based on activity type, session duration, and reliability score.                                      |
+| Friend System             | Users can add friends via QR code or friend code and compare their avatars and progress.                                                  |
+| Weekly Cooperative Quests | Users team up to defeat bosses by accumulating points together during a given time frame.                                                 |
+| Leaderboard System        | Leaderboards show top users nationally and globally, sorted by sport type or overall performance.                                         |
+| Anti-Cheat Mechanism      | A system detects inconsistent or impossible activity data (e.g. exaggerated distances, no heart rate, or suspicious timing) to adjust XP. |
+
+### 3.2. 
+
+### 3.X. Workflow
 
 ## 4. Non-functional Requirements
